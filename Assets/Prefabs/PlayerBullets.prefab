@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.33962262, g: 0.21311922, b: 0.04645782, a: 1}
+  m_Color: {r: 0.42352945, g: 0.25490198, b: 0.14901961, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -169,6 +169,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c6fcc5dd85d5b4da8fd4b2fc97fa12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullets
-  moveSpeed: 1
-  bulletsPrefab: {fileID: 5011999978731951156}
   lifetime: 2
+  damage: 1
