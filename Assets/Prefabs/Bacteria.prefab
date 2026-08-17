@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLife
   maxHealth: 3
+  isHit: 0
+  timeToColor: 0
 --- !u!58 &-133193413890455325
 CircleCollider2D:
   m_ObjectHideFlags: 0

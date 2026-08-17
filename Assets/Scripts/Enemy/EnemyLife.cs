@@ -7,27 +7,19 @@ public class EnemyLife : MonoBehaviour
 
     private int currentHealth;
 
-    public bool isHit = false;
-    public float timeToColor;
-    SpriteRenderer sr;
-    Color defaultColor;
+    private SpriteRenderer spriteRenderer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentHealth = maxHealth;
-        defaultColor = sr.color;
-        sr = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void TakeDamage(int damage)
     {
-        if (!isHit)
-        {
-            isHit = true;
-            StartCoroutine("SwitchColor");
-        }
         currentHealth -= damage;
+        StartCoroutine(DamageFlash());
 
         Debug.Log("Enemy HP: " + currentHealth);
 
@@ -36,16 +28,20 @@ public class EnemyLife : MonoBehaviour
             Die();
         }
     }
-
-    IEnumerator SwitchColor()
-    {
-        sr.color = new Color(1f, 0.30196078f, 0.30196078f);
-        yield return new WaitForSeconds(timeToColor);
-        sr.color = defaultColor;
-        isHit = false;
-    }
     private void Die()
     {
         Destroy(gameObject);
+    }
+
+    IEnumerator DamageFlash()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+
+            spriteRenderer.color = new Color32(20, 123, 50, 255);   
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 }
