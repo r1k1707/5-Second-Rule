@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class PlayerShoot : MonoBehaviour
+public class EnemyShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform crosshair;
+    [SerializeField] private Transform player;
 
-    [SerializeField] private float fireRate = 1f;
-    [SerializeField] private float bulletSpeed = 10f;
+    [SerializeField] private float fireRate = 2f;
+    [SerializeField] private float bulletSpeed = 5f;
 
     private float fireTimer;
 
@@ -17,9 +17,6 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        if (!GameCountdown.gameStarted)
-            return;
-
         fireTimer -= Time.deltaTime;
 
         if (fireTimer <= 0f)
@@ -31,11 +28,11 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        // Spawn bullet from the player
+        // Spawn bullet from the enemy
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
 
-        // Get direction from player to crosshair
-        Vector2 shootDirection = (crosshair.position - transform.position).normalized;
+        // Get direction from enemy to player
+        Vector2 shootDirection = (player.position - transform.position).normalized;
 
         // Get bullet Rigidbody2D
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

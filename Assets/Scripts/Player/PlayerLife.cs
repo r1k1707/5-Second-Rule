@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
@@ -9,20 +10,24 @@ public class PlayerLife : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField] private Image healthBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentHealth = maxHealth;
+        UpdateHealthBar();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        StartCoroutine(DamageFlash());
 
         Debug.Log("Player HP: " + currentHealth);
+
+        StartCoroutine(DamageFlash());
+        UpdateHealthBar();
 
         if (currentHealth <= 0)
         {
@@ -30,20 +35,28 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    IEnumerator DamageFlash()
+    private void UpdateHealthBar()
     {
-        for (int i = 0; i < 10; i++)
-        {
-            spriteRenderer.color = Color.red;
-            yield return new WaitForSeconds(0.1f);
-
-            spriteRenderer.color = Color.white;
-            yield return new WaitForSeconds(0.1f);
-        }
+        healthBar.fillAmount = (float)currentHealth / maxHealth;
     }
 
     public void Die()
     {
+        Destroy(gameObject);
         GetComponent<SpriteRenderer>().color = Color.red;
+    }
+
+    IEnumerator DamageFlash()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            spriteRenderer.color = Color.red;
+
+            yield return new WaitForSeconds(0.1f);
+
+            spriteRenderer.color = Color.white;
+
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 }

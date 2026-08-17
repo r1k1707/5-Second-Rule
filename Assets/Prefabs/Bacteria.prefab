@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4823615757231062839}
   - component: {fileID: -133193413890455325}
   - component: {fileID: 8026870510168194768}
+  - component: {fileID: 1763109461394750714}
   m_Layer: 0
   m_Name: Bacteria
   m_TagString: Enemy
@@ -121,8 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLife
   maxHealth: 3
-  isHit: 0
-  timeToColor: 0
 --- !u!58 &-133193413890455325
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -186,3 +185,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1763109461394750714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833224261334645216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c947171dddfc56244a7330394769308e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot
+  bulletPrefab: {fileID: 2940552415341029678, guid: f02dfcc4152eaf84c82029106e12708f, type: 3}
+  player: {fileID: 6990593059545174624, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+  fireRate: 2
+  bulletSpeed: 5

@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private Animator animator;
 
     private void Awake()
     {
