@@ -4691,6 +4691,17 @@ MonoBehaviour:
   invincibilityTime: 0.75
   healthBar: {fileID: 2015998674}
   gameOverManager: {fileID: 2027567773}
+--- !u!114 &1980236860 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3649204130568416719, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+  m_PrefabInstance: {fileID: 495057495569765541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980236846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1569a3f5c2edbb4d9fc5c4981f5ade3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement2
 --- !u!1 &2015998672
 GameObject:
   m_ObjectHideFlags: 0
@@ -5104,6 +5115,34 @@ PrefabInstance:
     - target: {fileID: 2671773553116625631, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1980236860}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Dash
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286181723102842878, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3649204130568416719, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: moveSpeed
