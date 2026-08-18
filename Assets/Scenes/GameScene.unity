@@ -3104,8 +3104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7826, y: 3.949}
-  m_SizeDelta: {x: 101.963, y: 102.6999}
+  m_AnchoredPosition: {x: -2.7826, y: 3.952401}
+  m_SizeDelta: {x: 101.963, y: 103.7137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015998674
 MonoBehaviour:
@@ -3338,6 +3338,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 595841370233932429, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2671773553116625631, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3386,7 +3390,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7631903482072313052, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_Mass
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631903482072313052, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631903482072313052, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 595841370233932429, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
