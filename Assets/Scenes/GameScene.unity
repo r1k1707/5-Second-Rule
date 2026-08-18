@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 275419533}
   m_Layer: 0
   m_Name: closedBox_Big
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1045,8 +1045,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3989668330587312247, guid: bc80a365d72a2de44bb5131116bc3572, type: 3}
@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 425193212}
   m_Layer: 0
   m_Name: closedbox_Small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1350,8 +1350,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4340143670946724112, guid: 17c4a1f61dc303d4d86c6b4a5ad42f32, type: 3}
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000152f0d25
+  m_ApplyToSortingLayers: 00000000152f0d259196a0b6
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2017,7 +2017,7 @@ GameObject:
   - component: {fileID: 646504358}
   m_Layer: 0
   m_Name: broom (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2143,8 +2143,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3856826634091575439, guid: 5cf419e2c125cca4aa99006683ce191f, type: 3}
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 746609080}
   m_Layer: 0
   m_Name: closedBox_Big (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2281,8 +2281,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3989668330587312247, guid: bc80a365d72a2de44bb5131116bc3572, type: 3}
@@ -2596,7 +2596,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 621621013
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -2896,7 +2896,7 @@ GameObject:
   - component: {fileID: 1044448970}
   m_Layer: 0
   m_Name: bucket (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,8 +2961,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4696760917660491729, guid: dd28d84b5f7980944839ebe53c950b32, type: 3}
@@ -3167,7 +3167,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - m_RefCount: 1
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
+    m_Data: {r: 0.41037738, g: 0.5805173, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
@@ -3402,7 +3402,7 @@ GameObject:
   - component: {fileID: 1395840308}
   m_Layer: 0
   m_Name: broom
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3528,8 +3528,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3856826634091575439, guid: 5cf419e2c125cca4aa99006683ce191f, type: 3}
@@ -3875,7 +3875,7 @@ GameObject:
   - component: {fileID: 1510333395}
   m_Layer: 0
   m_Name: openBox2
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3940,8 +3940,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6879785910209034016, guid: 450a2e828d61f894985963349a3ee760, type: 3}
@@ -4206,7 +4206,7 @@ GameObject:
   - component: {fileID: 1608298542}
   m_Layer: 0
   m_Name: openBox1
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4317,8 +4317,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9148079100729670451, guid: 642f85e519bb0ad4b8773b15bd654818, type: 3}
@@ -4441,7 +4441,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 621621013
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -4499,7 +4499,7 @@ GameObject:
   - component: {fileID: 1894473312}
   m_Layer: 0
   m_Name: bucket
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4564,8 +4564,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4696760917660491729, guid: dd28d84b5f7980944839ebe53c950b32, type: 3}
@@ -4736,8 +4736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7826, y: 3.952401}
-  m_SizeDelta: {x: 101.963, y: 103.7137}
+  m_AnchoredPosition: {x: -2.7895, y: 3.952401}
+  m_SizeDelta: {x: 101.952, y: 103.7137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015998674
 MonoBehaviour:
@@ -4851,7 +4851,7 @@ GameObject:
   - component: {fileID: 2032724510}
   m_Layer: 0
   m_Name: closedbox_Small (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4962,8 +4962,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230989679
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4340143670946724112, guid: 17c4a1f61dc303d4d86c6b4a5ad42f32, type: 3}

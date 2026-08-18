@@ -23,5 +23,9 @@ public class Bullets : MonoBehaviour
             }
             Destroy(gameObject);
         }
+        if (collision.CompareTag("Obstacles"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
