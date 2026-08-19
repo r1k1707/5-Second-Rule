@@ -9,21 +9,22 @@ public class GameOverManager : MonoBehaviour
     void Start()
     {
         gameOverUI.SetActive(false);
+        Cursor.visible = false;
     }
 
     public void GameOver()
     {
         gameOverUI.SetActive(true);
-
         PauseMenu.GamePaused = true;
         Time.timeScale = 0f;
+        Cursor.visible = true;
     }
 
     public void Retry()
     {
         Time.timeScale = 1f;
         PauseMenu.GamePaused = false;
-
+        Cursor.visible = false;
         SceneManager.LoadScene(sceneName);
     }
 

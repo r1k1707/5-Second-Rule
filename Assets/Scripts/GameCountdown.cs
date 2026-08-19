@@ -10,14 +10,18 @@ public class GameCountdown : MonoBehaviour
 
     void Start()
     {
+        // Reset game state when a new game starts
         gameStarted = false;
+        PauseMenu.GamePaused = false;
+
+        // Freeze gameplay during countdown
+        Time.timeScale = 0f;
+
         StartCoroutine(Countdown());
     }
 
     IEnumerator Countdown()
     {
-        Time.timeScale = 0f;
-
         countdownText.gameObject.SetActive(true);
 
         countdownText.text = "3";
@@ -36,6 +40,7 @@ public class GameCountdown : MonoBehaviour
 
         countdownText.gameObject.SetActive(false);
 
+        // Start gameplay
         Time.timeScale = 1f;
     }
 }

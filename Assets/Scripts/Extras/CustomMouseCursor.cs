@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CustomMouseCursor : MonoBehaviour
 {
     public Texture2D mouseCursor;
 
-    Vector2 hotSpot = new Vector2(0, 0);
-    CursorMode cursorMode = CursorMode.Auto;
+    private Vector2 hotSpot = Vector2.zero;
+    private CursorMode cursorMode = CursorMode.Auto;
 
-    private void Start()
+    private void Awake()
     {
         Cursor.SetCursor(mouseCursor, hotSpot, cursorMode);
     }
