@@ -47,7 +47,7 @@ public class ItemPickup : MonoBehaviour
 
                 if (playerShoot != null)
                 {
-                    playerShoot.FireRateBoost(0.5f, duration);
+                    playerShoot.FireRateBoost(0.8f, duration);
                     Destroy(gameObject);
                 }
                 break;
