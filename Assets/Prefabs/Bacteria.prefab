@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 8596640243658272642, guid: ab028cba1f99fa24abb839b656391dd3, type: 3}
   m_Color: {r: 0.079432175, g: 0.4811321, b: 0.19420362, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -198,6 +198,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot
   bulletPrefab: {fileID: 2940552415341029678, guid: f02dfcc4152eaf84c82029106e12708f, type: 3}
-  player: {fileID: 6990593059545174624, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
   fireRate: 2
   bulletSpeed: 5
