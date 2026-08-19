@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 7758ce7d2b0258e4eab59bec08f01ee6
+guid: 4f4beb06485fd7043b453b0673f82b68
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6328155776544953023
-    second: shadow3_0
-  - first:
-      213: -7266693059532250482
-    second: shadow3_1
+      213: 2943971141612934052
+    second: Typewriter_Project_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shadow3_0
+      name: Typewriter_Project_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 10
-        height: 9
+        x: 31
+        y: 1
+        width: 47
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb25c48962022d750800000000000000
-      internalID: 6328155776544953023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shadow3_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e82a8c6b925872b90800000000000000
-      internalID: -7266693059532250482
+      spriteID: 4a317dcc7261bd820800000000000000
+      internalID: 2943971141612934052
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fc36d86278602024b8057a3992b88258
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      shadow3_0: 6328155776544953023
-      shadow3_1: -7266693059532250482
+      Typewriter_Project_0: 2943971141612934052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
