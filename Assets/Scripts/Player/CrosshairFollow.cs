@@ -13,7 +13,7 @@ public class CrosshairFollow : MonoBehaviour
         mainCamera = Camera.main;
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (PauseMenu.GamePaused)
             return;
