@@ -8,6 +8,8 @@ public class VictoryMenu : MonoBehaviour
     [SerializeField] private GameObject victoryUI;
     [SerializeField] private int enemiesToDefeat = 100;
     [SerializeField] private string sceneName;
+    private PointManager pointManager;
+    private TimerController timerController;
 
     private int enemiesDefeated = 0;
 
@@ -16,6 +18,8 @@ public class VictoryMenu : MonoBehaviour
         victoryUI.SetActive(false);
         GameWon = false;
         Cursor.visible = false;
+        pointManager = FindFirstObjectByType<PointManager>();
+        timerController = FindFirstObjectByType<TimerController>();
     }
 
     public void EnemyDefeated()
@@ -37,6 +41,15 @@ public class VictoryMenu : MonoBehaviour
         PauseMenu.GamePaused = true;
         Time.timeScale = 0f;
         Cursor.visible = true;
+
+        if (pointManager != null)
+        {
+            pointManager.HighScoreUpdate();
+        }
+        if (timerController != null)
+        {
+            timerController.ShowFinalTime();
+        }
         Debug.Log("YOU WON?!");
     }
 

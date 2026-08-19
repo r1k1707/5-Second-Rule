@@ -8,12 +8,14 @@ public class EnemyLife : MonoBehaviour
     private int currentHealth;
 
     private SpriteRenderer spriteRenderer;
+    private PointManager pointManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentHealth = maxHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        pointManager = FindFirstObjectByType<PointManager>();
     }
 
     public void TakeDamage(int damage)
@@ -30,6 +32,10 @@ public class EnemyLife : MonoBehaviour
     }
     private void Die()
     {
+        if (pointManager != null)
+        {
+            pointManager.UpdateScore(100);
+        }
         VictoryMenu victoryManager = FindFirstObjectByType<VictoryMenu>();
 
         if (victoryManager != null)
