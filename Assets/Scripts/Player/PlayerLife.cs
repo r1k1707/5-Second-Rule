@@ -45,6 +45,14 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Min(currentHealth, maxHealth);
+        UpdateHealthBar();
+        Debug.Log("get that dough");
+    }
+
     private void UpdateHealthBar()
     {
         healthBar.fillAmount = (float)currentHealth / maxHealth;

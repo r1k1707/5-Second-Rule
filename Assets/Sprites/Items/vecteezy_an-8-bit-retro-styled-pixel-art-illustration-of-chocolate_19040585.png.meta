@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 1479f2f573f622947bb19045ac52e948
+guid: 957382079f733254e865c3758cafe5f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2326310516829614130
-    second: icons8-center-of-gravity-32_0
-  - first:
-      213: 8190437857737869227
-    second: icons8-center-of-gravity-32_1
-  - first:
-      213: -5526877917473695523
-    second: icons8-center-of-gravity-32_2
-  - first:
-      213: -282012008171095440
-    second: icons8-center-of-gravity-32_3
+      213: -6944392363826776995
+    second: vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-chocolate_19040585_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -33,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 3600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icons8-center-of-gravity-32_0
+      name: vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-chocolate_19040585_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 30
-        height: 30
+        x: 749
+        y: 311
+        width: 2627
+        height: 3315
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23072e8f617b84020800000000000000
-      internalID: 2326310516829614130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icons8-center-of-gravity-32_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 0
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba7806936d74aa170800000000000000
-      internalID: 8190437857737869227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icons8-center-of-gravity-32_2
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 14
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd8970411d59c43b0800000000000000
-      internalID: -5526877917473695523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icons8-center-of-gravity-32_3
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 3
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07a319e9297161cf0800000000000000
-      internalID: -282012008171095440
+      spriteID: d547b2520ff80af90800000000000000
+      internalID: -6944392363826776995
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ab051509f3256d245b1329e1e2543c31
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      icons8-center-of-gravity-32_0: 2326310516829614130
-      icons8-center-of-gravity-32_1: 8190437857737869227
-      icons8-center-of-gravity-32_2: -5526877917473695523
-      icons8-center-of-gravity-32_3: -282012008171095440
+      vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-chocolate_19040585_0: -6944392363826776995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

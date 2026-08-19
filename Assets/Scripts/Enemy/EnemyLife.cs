@@ -30,6 +30,12 @@ public class EnemyLife : MonoBehaviour
     }
     private void Die()
     {
+        VictoryMenu victoryManager = FindFirstObjectByType<VictoryMenu>();
+
+        if (victoryManager != null)
+        {
+            victoryManager.EnemyDefeated();
+        }
         Destroy(gameObject);
     }
 
@@ -40,7 +46,7 @@ public class EnemyLife : MonoBehaviour
             spriteRenderer.color = Color.red;
             yield return new WaitForSeconds(0.1f);
 
-            spriteRenderer.color = new Color32(20, 123, 50, 255);   
+            spriteRenderer.color = new Color32(124, 155, 255, 255);   
             yield return new WaitForSeconds(0.1f);
         }
     }

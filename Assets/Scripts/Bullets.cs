@@ -10,6 +10,10 @@ public class Bullets : MonoBehaviour
     {
         Destroy(gameObject, lifetime);
     }
+    public void SetDamage(int newDamage)
+    {
+        damage = newDamage;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
