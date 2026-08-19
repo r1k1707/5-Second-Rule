@@ -27,7 +27,7 @@ public class PlayerLife : MonoBehaviour
     public void TakeDamage(int damage)
     {
         // Don't take damage while invincible (duh)
-        if (isInvincible || GetComponent<PlayerMovement>().IsDashing)
+        if (isInvincible)
             return;
 
         currentHealth -= damage;

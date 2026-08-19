@@ -24,9 +24,5 @@ public class EnemyBullets : MonoBehaviour
 
             Destroy(gameObject);
         }
-        if (collision.CompareTag("Obstacles"))
-        {
-            Destroy(gameObject) ;
-        }
     }
 }
