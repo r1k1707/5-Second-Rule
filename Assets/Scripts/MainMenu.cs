@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] string sceneName;
     [SerializeField] string sceneName2;
-
+    [SerializeField] string sceneName3;
     public void StartGame()
     {
         StartCoroutine(DelaySceneLoad());
@@ -20,6 +20,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName2);
     }
 
+    public void RealSettingsMenu()
+    {
+        SceneManager.LoadScene(sceneName3);
+    }
     IEnumerator DelaySceneLoad()
     {
         Time.timeScale = 1f;

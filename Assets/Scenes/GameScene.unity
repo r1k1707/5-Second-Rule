@@ -767,7 +767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37, y: -83}
+  m_AnchoredPosition: {x: 19, y: -102}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230920058
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -100.561264, y: 0, z: 0, w: 0}
+  m_margin: {x: -100.561264, y: 0, z: -76.693054, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -904,7 +904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42, y: -125}
+  m_AnchoredPosition: {x: -98, y: -125}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233601171
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -86.911194, w: 0}
+  m_margin: {x: 0, y: 0, z: -196.44989, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1315,7 +1315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.999999, y: -24}
+  m_AnchoredPosition: {x: -40, y: -38}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306716364
@@ -1404,7 +1404,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -91.073074, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1436,7 +1436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &398003318
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2613,7 +2613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -56}
+  m_AnchoredPosition: {x: -48, y: -56}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602559012
@@ -2702,7 +2702,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -109.538666, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5083,7 +5083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64, y: 13}
+  m_AnchoredPosition: {x: -110, y: 13}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471620854
@@ -5172,7 +5172,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -130.36678, w: 0}
+  m_margin: {x: 0, y: 0, z: -195.70558, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6410,7 +6410,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -183.65344, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6560,7 +6560,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You are now a
 
-    ROTTEN COOKIE'
+    ROTTEN COOKIE.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6e94accd72b59c34a8d1efc771b4021e, type: 2}
   m_sharedMaterial: {fileID: 6178484026976814696, guid: 6e94accd72b59c34a8d1efc771b4021e, type: 2}
@@ -6597,7 +6597,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: -10
+  m_characterSpacing: -15
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -6674,7 +6674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -75, y: 32}
+  m_AnchoredPosition: {x: -120, y: 32}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808131730
@@ -6763,7 +6763,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -127.024826, w: 0}
+  m_margin: {x: 0, y: 0, z: -243.66228, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8332,7 +8332,7 @@ PrefabInstance:
     - target: {fileID: 2374440834805222498, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2326310516829614130, guid: 1479f2f573f622947bb19045ac52e948, type: 3}
+      objectReference: {fileID: 8948834225330474722, guid: e85d122256fa9f64bb9a5f715e79c7e4, type: 3}
     - target: {fileID: 2374440834805222498, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -8434,8 +8434,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7651080879757321391, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.4250863
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651080879757321391, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.4250863
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651080879757321391, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.4250863
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651080879757321391, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.484
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 7651080879757321391, guid: ccaaed2de94b1cb4b82d5f5f3075db61, type: 3}
       propertyPath: m_LocalPosition.z
