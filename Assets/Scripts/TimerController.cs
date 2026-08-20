@@ -4,35 +4,27 @@ using TMPro;
 public class TimerController : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI timerText;
-    [SerializeField] private TMP_Text finalTimeText;
 
     private float elapsedTime = 0f;
-    private bool timerRunning = false;
 
     void Start()
     {
         elapsedTime = 0f;
-        timerRunning = false;
 
         UpdateTimerText();
     }
 
     void Update()
     {
-        // Don't start counting until the countdown is finished
+        // Don't want it to start until countdown is finished >:(
         if (!GameCountdown.gameStarted)
             return;
 
-        // Stop timer when game is paused or won
+        // Stop when paused, won, or game over
         if (PauseMenu.GamePaused || VictoryMenu.GameWon)
             return;
 
-        timerRunning = true;
-
-        if (timerRunning)
-        {
-            elapsedTime += Time.deltaTime;
-        }
+        elapsedTime += Time.deltaTime;
 
         UpdateTimerText();
     }

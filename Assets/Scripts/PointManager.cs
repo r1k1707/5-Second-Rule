@@ -5,11 +5,7 @@ public class PointManager : MonoBehaviour
 {
     public int score;
 
-    public static int highscore;
-
     [SerializeField] private TMP_Text scoreText;
-    [SerializeField] private TMP_Text finalScoreText;
-    [SerializeField] private TMP_Text highScoreText;
 
     void Start()
     {
