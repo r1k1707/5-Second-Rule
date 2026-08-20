@@ -30,11 +30,9 @@ public class PointManager : MonoBehaviour
         scoreText.text = "Score: " + score;
     }
 
-    public void HighScoreUpdate()
+    public void ShowFinalScore(TMP_Text finalScoreText, TMP_Text highScoreText)
     {
         int savedHighScore = PlayerPrefs.GetInt("SavedHighScore", 0);
-
-        Debug.Log("Current score: " + score);
 
         if (score > savedHighScore)
         {

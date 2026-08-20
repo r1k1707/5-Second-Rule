@@ -45,11 +45,11 @@ public class TimerController : MonoBehaviour
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
-    public void ShowFinalTime()
+    public void ShowFinalTime(TMP_Text text)
     {
         int minutes = Mathf.FloorToInt(elapsedTime / 60);
         int seconds = Mathf.FloorToInt(elapsedTime % 60);
 
-        finalTimeText.text = "Time: " + string.Format("{0:00}:{1:00}", minutes, seconds);
+        text.text = "Time: " + string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

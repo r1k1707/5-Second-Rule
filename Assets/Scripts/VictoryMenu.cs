@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,11 @@ public class VictoryMenu : MonoBehaviour
     [SerializeField] private GameObject victoryUI;
     [SerializeField] private int enemiesToDefeat = 100;
     [SerializeField] private string sceneName;
+
+    [SerializeField] private TMP_Text finalTimeText;
+    [SerializeField] private TMP_Text finalScoreText;
+    [SerializeField] private TMP_Text highScoreText;
+
     private PointManager pointManager;
     private TimerController timerController;
 
@@ -16,8 +22,11 @@ public class VictoryMenu : MonoBehaviour
     private void Start()
     {
         victoryUI.SetActive(false);
+
         GameWon = false;
+
         Cursor.visible = false;
+
         pointManager = FindFirstObjectByType<PointManager>();
         timerController = FindFirstObjectByType<TimerController>();
     }
@@ -25,9 +34,7 @@ public class VictoryMenu : MonoBehaviour
     public void EnemyDefeated()
     {
         enemiesDefeated++;
-
-        Debug.Log("Enemies defeated: " + enemiesDefeated + "/" + enemiesToDefeat);
-
+        Debug.Log( "Enemies defeated: " + enemiesDefeated + "/" + enemiesToDefeat);
         if (enemiesDefeated >= enemiesToDefeat)
         {
             Victory();
@@ -36,20 +43,23 @@ public class VictoryMenu : MonoBehaviour
 
     private void Victory()
     {
+        if (timerController != null)
+        {
+            timerController.ShowFinalTime(finalTimeText);
+        }
+
+        if (pointManager != null)
+        {
+            pointManager.ShowFinalScore(
+                finalScoreText,
+                highScoreText
+            );
+        }
         GameWon = true;
         victoryUI.SetActive(true);
         PauseMenu.GamePaused = true;
         Time.timeScale = 0f;
         Cursor.visible = true;
-
-        if (pointManager != null)
-        {
-            pointManager.HighScoreUpdate();
-        }
-        if (timerController != null)
-        {
-            timerController.ShowFinalTime();
-        }
         Debug.Log("YOU WON?!");
     }
 
