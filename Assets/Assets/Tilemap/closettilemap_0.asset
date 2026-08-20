@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: closettilemap_0
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
   m_Sprite: {fileID: -1527968884024487865, guid: 59bf075b7de14384588df0b6a4d7a15c, type: 3}
-  m_Color: {r: 0.48420256, g: 0.59690714, b: 0.8773585, a: 1}
+  m_Color: {r: 0.38416696, g: 0.5366113, b: 0.9150943, a: 1}
   m_Transform:
     e00: 1
     e01: 0
