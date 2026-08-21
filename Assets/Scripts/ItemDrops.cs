@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class ItemSpawner : MonoBehaviour
+public class ItemDrops : MonoBehaviour
 {
     [SerializeField] private GameObject[] itemPrefabs;
     [SerializeField] private Transform player;
