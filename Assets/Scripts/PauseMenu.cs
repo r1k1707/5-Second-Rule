@@ -38,20 +38,20 @@ public class PauseMenu : MonoBehaviour
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
-
         Time.timeScale = 0f;
         GamePaused = true;
-
         Cursor.visible = true;
     }
 
+    public void BackToMain()
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
-
         Time.timeScale = 1f;
         GamePaused = false;
-
         Cursor.visible = false;
     }
 
