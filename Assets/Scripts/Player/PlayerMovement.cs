@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Animator _anim;
 
+    // Set up the references for the player idle animations
     private const string _horizontal = "Horizontal";
     private const string _vertical = "Vertical";
     private const string _lastHorizontal = "LastHorizontal";
@@ -31,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        // Connects in the references into active code
+        _anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -82,5 +85,17 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(dashCooldown);
 
         canDash = true;
+    }
+
+    private void Update()
+    {
+        _anim.SetFloat(_horizontal, moveInput.x);
+        _anim.SetFloat(_vertical, moveInput.y);
+
+        if (moveInput != Vector2.zero)
+        {
+            _anim.SetFloat(_lastHorizontal, moveInput.x);
+            _anim.SetFloat( _lastVertical, moveInput.y);
+        }
     }
 }

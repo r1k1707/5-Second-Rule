@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8026870510168194768}
   - component: {fileID: 1763109461394750714}
   - component: {fileID: -4047536084430870507}
+  - component: {fileID: 5592106887567612111}
   m_Layer: 0
   m_Name: Bacteria
   m_TagString: Enemy
@@ -110,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   speed: 1
+  idleStateName: Idle
 --- !u!114 &4823615757231062839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +219,25 @@ Animation:
   m_AnimatePhysics: 0
   m_UpdateMode: 0
   m_CullingType: 0
+--- !u!95 &5592106887567612111
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833224261334645216}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 411e4b84901d4af4d98a1e744dee5076, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
