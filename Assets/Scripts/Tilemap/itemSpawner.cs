@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectSpawner : MonoBehaviour
+public class itemSpawner : MonoBehaviour
 {
     [Header("Objects to Spawn")]
     public GameObject[] objectsToSpawn;
