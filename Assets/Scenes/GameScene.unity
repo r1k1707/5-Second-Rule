@@ -4117,7 +4117,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1407085259}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: ResumeGame
+        m_MethodName: BackToMain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7761,8 +7761,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PointManager
   score: 0
   scoreText: {fileID: 1700298803}
-  finalScoreText: {fileID: 306716364}
-  highScoreText: {fileID: 230920058}
 --- !u!114 &2027567776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,7 +7774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimerController
   timerText: {fileID: 2051040927}
-  finalTimeText: {fileID: 1808131730}
 --- !u!1 &2032724508
 GameObject:
   m_ObjectHideFlags: 0
