@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
+    private Animator _anim;
+
+    private const string _horizontal = "Horizontal";
+    private const string _vertical = "Vertical";
+    private const string _lastHorizontal = "LastHorizontal";
+    private const string _lastVertical = "LastVertical";
 
     private Vector2 lastMoveDirection;
     private bool isDashing;
